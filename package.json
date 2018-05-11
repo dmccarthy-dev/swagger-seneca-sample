@@ -1,0 +1,36 @@
+{
+  "name": "swagger-seneca-sample",
+  "version": "1.0.0",
+  "description": "A sample project that showcases the swagger-seneca-router module.",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger",
+    "seneca",
+    "router"
+  ],
+  "author": "Donal McCarthy (https://github.com/dmccarthy-dev)",
+  "bugs": {
+    "url": "https://github.com/dmccarthy-dev/swagger-seneca-sample/issues"
+  },
+  "homepage": "https://github.com/dmccarthy-dev/swagger-seneca-sample#readme",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "dependencies": {
+    "connect": "^3.6.6",
+    "js-yaml": "^3.11.0",
+    "seneca": "^3.4.3",
+    "seneca-balance-client": "^0.6.1",
+    "seneca-entity": "^2.0.2",
+    "seneca-mesh": "^0.11.0",
+    "swagger-seneca-router": "^1.1.0",
+    "swagger-tools": "^0.10.3"
+  }
+}
